@@ -1,4 +1,4 @@
-body {
+.body {
     background-image: url("image/backgroundwattpad.png");
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,28 +15,28 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
 }
 
-label {
+.label {
     margin-bottom: 5px;
 }
 
-input {
+.input {
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
-button {
+.button {
     padding: 10px;
     background-color: #000000;
     color: #fff;
@@ -45,20 +45,20 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: #000000;
 }
 
-p {
+.p {
     margin-top: 20px;
     text-align: center;
 }
 
-a {
+.a {
     color: #000000;
     text-decoration: none;
 }
 
-a:hover {
+.a:hover {
     text-decoration: underline;
 }
